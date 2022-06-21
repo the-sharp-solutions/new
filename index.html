@@ -65,17 +65,13 @@
           -webkit-overflow-scrolling: touch;
         }
         .spec {
-          background-color: rgb(95, 24, 24);
+          background-color: #04175c;
           color: white;
           font-size: 15px;
           justify-content: center;
           align-items: center;
           padding: 5px;
           font-weight: bold;
-        }
-        .spec:hover {
-          background-color: brown;
-          color:rgb(255, 255, 255);
         }
       </style>
 
@@ -249,6 +245,66 @@
     </div>
   </div>
 
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="px-4 py-5 my-5 text-center">
+      <!--<img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">-->
+      <h3 class="display-9 fw-bold" id="roi-spec">ROI Core</h3>
+      <h1 class="display-5 fw-bold">Specification</h1>
+      <br /> <br />
+      <div class="col-lg-6 mx-auto">
+          <div class="row mb-3 spec">
+            <div class="col-md-6 themed-grid-col">Name</div>
+            <div class="col-md-6 themed-grid-col bg-primary">ROI Coin</div>
+          </div>
+          <div class="row mb-3 spec">
+            <div class="col-md-6 themed-grid-col test">Ticker</div>
+            <div class="col-md-6 themed-grid-col bg-primary">ROI</div>
+          </div>
+          <div class="row mb-3 spec">
+            <div class="col-md-6 themed-grid-col test">Maturity</div>
+            <div class="col-md-6 themed-grid-col bg-primary">100 Blocks</div>
+          </div>
+          <div class="row mb-3 spec">
+            <div class="col-md-6 themed-grid-col test">Max Supply</div>
+            <div class="col-md-6 themed-grid-col bg-primary">1,000,000,000 ROI</div>
+          </div>
+          <div class="row mb-3 spec">
+            <div class="col-md-6 themed-grid-col test">P2P Port</div>
+            <div class="col-md-6 themed-grid-col bg-primary">6556</div>
+          </div>
+          <div class="row mb-3 spec">
+            <div class="col-md-6 themed-grid-col test">RPC Port</div>
+            <div class="col-md-6 themed-grid-col bg-primary">6557</div>
+          </div>
+          <div class="row mb-3 spec">
+            <div class="col-md-6 themed-grid-col test">Halving</div>
+            <div class="col-md-6 themed-grid-col bg-primary">None - See Block Reward's System</div>
+          </div>
+          <div class="row mb-3 spec">
+            <div class="col-md-6 themed-grid-col test">Block Time</div>
+            <div class="col-md-6 themed-grid-col bg-primary">1 Min</div>
+          </div>
+          <div class="row mb-3 spec">
+            <div class="col-md-6 themed-grid-col test">Difficulty Time</div>
+            <div class="col-md-6 themed-grid-col bg-primary">4 Blocks</div>
+          </div>
+          <div class="row mb-3 spec">
+            <div class="col-md-6 themed-grid-col test">Block Reward</div>
+            <div class="col-md-6 themed-grid-col bg-primary"><a href="#rewards" title="click to see" style="color:rgb(255, 255, 255); text-decoration: underline;">See Block Reward's System</a></div>
+          </div>
+          <div class="row mb-3 spec">
+            <div class="col-md-6 themed-grid-col test">Premine</div>
+            <div class="col-md-6 themed-grid-col bg-primary">50,000,000 ROI</div>
+          </div>
+          <div class="row mb-3 spec">
+            <div class="col-md-6 themed-grid-col test">Masternode</div>
+            <div class="col-md-6 themed-grid-col bg-primary">10,000 ROI</div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
   <div class="b-example-divider"></div>
   <div class="container col-xxl-8 px-4 py-5">
   <div class="row featurette">
@@ -271,24 +327,7 @@
 </div>
   <div class="b-example-divider"></div>
 
-  <div class="container col-xxl-8 px-4 py-5">
-    <div class="px-4 py-5 my-5 text-center">
-      <!--<img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">-->
-      <h3 class="display-9 fw-bold" id="roi-spec">ROI Core</h3>
-      <h1 class="display-5 fw-bold">Specification</h1>
-      <br /> <br />
-      <div class="col-lg-6 mx-auto">
-          <div class="row mb-3 spec">
-            <div class="col-md-6 themed-grid-col">Consensus Algorithm</div>
-            <div class="col-md-6 themed-grid-col bg-primary">Proof of Stake (Cold & Hot PoS)</div>
-          </div>
-          <div class="row mb-3 spec">
-            <div class="col-md-6 themed-grid-col test">Consensus Algorithm</div>
-            <div class="col-md-6 themed-grid-col bg-primary">Proof of Stake (Cold & Hot PoS)</div>
-          </div>
-      </div>
-    </div>
-  </div>
+  
 
   <div class="b-example-divider"></div>
 
@@ -615,8 +654,10 @@
 
       <div class="col-md-5 offset-md-1 mb-3">
         <form>
-          <h5>Subscribe to our newsletter</h5>
-          <p>Monthly digest of what's new and exciting from us.</p>
+          <h5 style="text-transform: uppercase">Never Miss A Roi Update</h5>
+          <p>
+            Subscribe to the newsletter and be the first to receive the latest ROI alerts, announcements and development updates.
+          </p>
           <div class="d-flex flex-column flex-sm-row w-100 gap-2">
             <label for="newsletter1" class="visually-hidden">Email address</label>
             <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
