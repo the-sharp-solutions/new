@@ -64,6 +64,19 @@
           white-space: nowrap;
           -webkit-overflow-scrolling: touch;
         }
+        .spec {
+          background-color: rgb(95, 24, 24);
+          color: white;
+          font-size: 15px;
+          justify-content: center;
+          align-items: center;
+          padding: 5px;
+          font-weight: bold;
+        }
+        .spec:hover {
+          background-color: brown;
+          color:rgb(255, 255, 255);
+        }
       </style>
 
 </head>
@@ -258,23 +271,21 @@
 </div>
   <div class="b-example-divider"></div>
 
-  <div class="container">
+  <div class="container col-xxl-8 px-4 py-5">
     <div class="px-4 py-5 my-5 text-center">
       <!--<img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">-->
-      <h3 class="display-9 fw-bold">ROI Core</h3>
+      <h3 class="display-9 fw-bold" id="roi-spec">ROI Core</h3>
       <h1 class="display-5 fw-bold">Specification</h1>
       <br /> <br />
       <div class="col-lg-6 mx-auto">
-        <div id="spec">
-          <div class="row mb-3">
+          <div class="row mb-3 spec">
             <div class="col-md-6 themed-grid-col">Consensus Algorithm</div>
-            <div class="col-md-6 themed-grid-col">Proof of Stake (Cold & Hot PoS)</div>
+            <div class="col-md-6 themed-grid-col bg-primary">Proof of Stake (Cold & Hot PoS)</div>
           </div>
-          <div class="row mb-3">
+          <div class="row mb-3 spec">
             <div class="col-md-6 themed-grid-col test">Consensus Algorithm</div>
-            <div class="col-md-6 themed-grid-col">Proof of Stake (Cold & Hot PoS)</div>
+            <div class="col-md-6 themed-grid-col bg-primary">Proof of Stake (Cold & Hot PoS)</div>
           </div>
-        </div>
       </div>
     </div>
   </div>
